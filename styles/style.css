@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    font-family: "Inter";
+}
+
+header {
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15rem;
+}
+
+.nav-text {
+    padding: 15px;
+    color: #667085;
+    text-decoration: none;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    padding: 7px;
+    font-weight: bold;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-text {
+    padding-right: 30px;
+    color: #667085;
+    text-decoration: none;
+}
+
+.button-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    /* Shadow/xs */
+    
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: white;
+    height: 40px;
+    width: 110px;
+}
+
+
