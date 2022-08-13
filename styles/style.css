@@ -127,4 +127,71 @@
     height: 100px;
 }
 
+.vagas-descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 190px;
+}
+
+.vagas-text-red {
+    font-weight: 600;
+    text-align: center;
+    color: #8E2424;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4px 8px;
+    width: 125px;
+    /* height: 28px; */
+    border-radius: 8px;
+}
+
+.vagas-h1 {
+    color: #101828;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.vagas-p {
+    color: #667085;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.vagas-img {
+    width: 1080px;
+    height: 400px;
+}
+
+article {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.box-design {
+    padding: 24px 24px 28px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+article .test {
+    width: 800px;
+}
+
+.jobs-h1 {
+    margin-bottom: 35px;
+}
+
+.jobs-h3 {
+    margin-bottom: 35px;
+}
+
+.full-gap, .salario{
+    padding-right: 15px;
+    color: #667085;
+    font-weight: bold;
+}
 
