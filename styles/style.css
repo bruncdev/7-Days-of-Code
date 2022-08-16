@@ -177,7 +177,7 @@ article {
     margin-bottom: 30px;
 }
 
-article .test {
+article .jobs {
     width: 800px;
 }
 
@@ -193,5 +193,109 @@ article .test {
     padding-right: 15px;
     color: #667085;
     font-weight: bold;
+}
+
+article .deps-father {
+    width: 800px;
+    background-color: rgba(195, 25, 25, 0.03);
+    padding: 60px;
+    border-radius: 10px;
+} 
+
+.deps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deps-p {
+    color: #8E2424;
+    font-weight: bold;
+    font-size: smaller;
+    padding-bottom: 15px;
+}
+
+.deps-h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+.deps-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deps-h1-img {
+    font-weight: bold;
+    font-size: small;
+    padding-top: 15px;
+}
+
+.deps-p-img {
+    color: #667085;
+    padding-top: 5px;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(208, 213, 221, 0.3);
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-h1 {
+    text-align: center;
+    padding: 80px 0px 15px 0px;
+}
+
+.footer-p {
+    text-align: center;
+    color: #667085;
+    font-size: large;
+    font-weight: 200;
+}
+
+.footer-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.input-email {
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #D0D5DD;
+    padding-left: 10px;
+}
+
+.button-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: white;
+    height: 40px;
+    width: 110px;
+    margin-left: 10px;
+}
+
+.copyright {
+    color: #667085;
+    font-size: small;
+    padding-top: 20px;
 }
 
